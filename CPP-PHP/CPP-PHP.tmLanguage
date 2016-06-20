@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>comment</key>
+	<string>Colorizer for C++ and PHP</string>
+	<key>fileTypes</key>
+	<array>
+		<string>h.php</string>
+		<string>cc.php</string>
+	</array>
+	<key>name</key>
+	<string>CPP-PHP</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.php</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.c++</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.cpp.php</string>
+	<key>uuid</key>
+	<string>212565a4-847e-4ac6-b556-ea4669f81aae</string>
+</dict>
+</plist>
